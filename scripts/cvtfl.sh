@@ -1,0 +1,1 @@
+for %%A in ("*.mp4") do ffmpeg -i "%%A" "frames\%%~nA_out-%%06d.jpg"

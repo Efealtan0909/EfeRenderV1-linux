@@ -1,0 +1,1 @@
+for %%A in ("*.mp4") do ffmpeg -i "%%A" -vf scale=1920:1080 "frames\%%~nA_out-%%06d.png" -vcodec mpng

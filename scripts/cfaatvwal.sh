@@ -1,0 +1,1 @@
+ffmpeg -i frames\filename_out-%%06d.jpg -i audio/filename.mp3 video/filename.mp4
